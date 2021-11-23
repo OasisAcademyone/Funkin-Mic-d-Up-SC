@@ -58,6 +58,7 @@ jobs:
           haxelib run lime rebuild extension-webm windows
           haxelib git openfl https://github.com/openfl/openfl
           haxelib install actuate
+          lime rebuild systools windows
           haxelib list
         shell: cmd
       - name: Create APIStuff
