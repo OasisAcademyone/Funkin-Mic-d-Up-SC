@@ -41,6 +41,8 @@ jobs:
           haxelib install hxcpp-debug-server
           haxelib install seedyrng
           haxelib install random
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          lime rebuild extension-webm linux
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
           haxelib list
@@ -90,6 +92,8 @@ jobs:
           haxelib install hxcpp-debug-server
           haxelib install seedyrng
           haxelib install random
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          lime rebuild extension-webm windows
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
           haxelib list
@@ -137,6 +141,8 @@ jobs:
           haxelib install hxcpp-debug-server
           haxelib install seedyrng
           haxelib install random
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm
+          lime rebuild extension-webm windows
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
           haxelib list
